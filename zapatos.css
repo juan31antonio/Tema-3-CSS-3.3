@@ -1,0 +1,42 @@
+header {
+    background-color: purple;
+    padding:10px;
+    margin: 0px;
+    color: white;
+    text-align: center;   
+}
+
+nav {
+    display: flex;
+    background-color: violet;
+    justify-content: space-between;
+    padding: 5px 100px 5px 100px;
+}
+
+a {
+    color: purple;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    flex-grow: 1;
+}
+
+article {
+    padding: 50px 10px;
+}
+
+footer {
+    text-align: center;
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: #222222;
+    color: #504e4e;
+}
